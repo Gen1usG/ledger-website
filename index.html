@@ -1,0 +1,23 @@
+<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover"><title>ledger</title><style>.mask {
+            width: 100vw;
+            height: 100vh;
+            position: fixed;
+            left: 0;
+            top: 0;
+            background-color: rgba(0, 0, 0, .5);
+            display: none;
+        }
+
+        .mask > img {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translateX(-50%) translateY(-50%);
+        }</style><link href=/ledger-website/css/app.bb9ad7f8.css rel=preload as=style><link href=/ledger-website/js/app.8e329f13.js rel=preload as=script><link href=/ledger-website/js/chunk-vendors.fc3ebc99.js rel=preload as=script><link href=/ledger-website/css/app.bb9ad7f8.css rel=stylesheet><link rel=icon type=image/png sizes=32x32 href=/ledger-website/img/icons/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=/ledger-website/img/icons/favicon-16x16.png><link rel=manifest href=/ledger-website/manifest.json><meta name=theme-color content=#4DBA87><meta name=apple-mobile-web-app-capable content=no><meta name=apple-mobile-web-app-status-bar-style content=default><meta name=apple-mobile-web-app-title content=ledger><link rel=apple-touch-icon href=/ledger-website/img/icons/apple-touch-icon-152x152.png><link rel=mask-icon href=/ledger-website/img/icons/safari-pinned-tab.svg color=#4DBA87><meta name=msapplication-TileImage content=/ledger-website/img/icons/msapplication-icon-144x144.png><meta name=msapplication-TileColor content=#000000></head><body><noscript><strong>We're sorry but ledger doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=app></div><div class=mask><img src=./img/QRCode.png alt=""></div><script>const ScreenWidth = window.screen.width
+    if (ScreenWidth > 500) {
+        alert('请使用移动端浏览')
+        document.querySelector('.mask').style.display = 'block'
+    }
+    document.querySelector('.mask').onclick = function(){
+        document.querySelector('.mask').style.display = 'none'
+    }</script><script src=/ledger-website/js/chunk-vendors.fc3ebc99.js></script><script src=/ledger-website/js/app.8e329f13.js></script></body></html>
